@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    
+    <com.pulltorefresh.PullToRefreshScrollView
+        android:id="@+id/pull_scrollview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/btn_1"
+                android:layout_width="fill_parent"
+                android:layout_height="50dip"
+                android:layout_marginTop="15dip"
+                android:gravity="center"
+                android:text="测试一" >
+            </Button>
+
+            <Button
+                android:id="@+id/btn_2"
+                android:layout_width="fill_parent"
+                android:layout_height="50dip"
+                android:layout_marginTop="15dip"
+                android:gravity="center"
+                android:text="测试二" >
+            </Button>
+
+            <Button
+                android:id="@+id/btn_3"
+                android:layout_width="fill_parent"
+                android:layout_height="50dip"
+                android:layout_marginTop="15dip"
+                android:gravity="center"
+                android:text="测试三" >
+            </Button>
+
+            <Button
+                android:id="@+id/btn_4"
+                android:layout_width="fill_parent"
+                android:layout_height="50dip"
+                android:layout_marginTop="15dip"
+                android:gravity="center"
+                android:text="测试四" >
+            </Button>
+
+            <Button
+                android:id="@+id/btn_5"
+                android:layout_width="fill_parent"
+                android:layout_height="50dip"
+                android:layout_marginTop="15dip"
+                android:gravity="center"
+                android:text="测试五" >
+            </Button>
+
+            <Button
+                android:id="@+id/btn_6"
+                android:layout_width="fill_parent"
+                android:layout_height="50dip"
+                android:layout_marginTop="15dip"
+                android:gravity="center"
+                android:text="测试六" >
+            </Button>
+
+            <Button
+                android:id="@+id/btn_7"
+                android:layout_width="fill_parent"
+                android:layout_height="50dip"
+                android:layout_marginTop="15dip"
+                android:gravity="center"
+                android:text="测试七" >
+            </Button>
+
+            <Button
+                android:id="@+id/btn_8"
+                android:layout_width="fill_parent"
+                android:layout_height="50dip"
+                android:layout_marginTop="15dip"
+                android:gravity="center"
+                android:text="测试八" >
+            </Button>
+        </LinearLayout>
+    </com.pulltorefresh.PullToRefreshScrollView>
+
+</LinearLayout>
